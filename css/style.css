@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Nunito+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&family=Mukta:wght@700&family=Nunito+Sans&family=Roboto&display=swap');
  
 * {
    margin: 0;
@@ -6,16 +6,16 @@
    box-sizing: border-box;
 }
 body {
-   background-image: url("img/star.jpg");
+  background-color: black;
  }
  #header {
-   background-color: #15436e;
+   background-image: url("img/galaxy.jpg");
    padding: 35px 20px 25px;
    height: 150px;
    text-align: center;
    font-size: 20px;
    color: #ffffff;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Bitter', serif;
  }
 
  p {
@@ -23,20 +23,22 @@ body {
  }
 
  a{
-   background-color: #15436e;
+   background-color: #0e2239;
    font-size: 30px;
    width: 500px;
-   border: 15px solid #15436e;
+   border: 15px solid #0e2239;
    padding: 50px;
    margin: 20px;
    margin-left: 37.5%;
    color: #ffffff;
    align-items: center;
    justify-content: center;
+   font-family: 'Bitter', serif;
  }
  a{
    display: flex;
    height: 50px;
    align-items: center;
    justify-content: center;
+   font-family: 'Bitter', serif;
  }
