@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fira+Sans+Condensed&display=swap');
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 head {
@@ -27,7 +27,6 @@ body {
     content: '';
     display: block;
     position: absolute;
-    top: 0;
     width: 100%;
     height: 100%;
     background: rgba(56, 43, 35, 0.678);
@@ -36,7 +35,7 @@ body {
     color: #fff;
     z-index: 10;
     font-family: 'Caveat', cursive;
-    font-size: 48px;
+    font-size: 70px;
 }
 h1 {
     display: block;
@@ -49,6 +48,10 @@ h1 {
     margin: 0 auto;
     padding-bottom: 50px;
 }
+ul {
+    display: block;
+    padding-inline-start: 40px;
+}
 .animal-list > li {
     background: #e8f8f3;
     border-radius: 10px;
@@ -56,6 +59,9 @@ h1 {
     flex-wrap: wrap;
     margin: 25px 0;
     padding: 20px 15px;
+}
+li {
+    display: list-item;
 }
 h2 {
     display: block;
@@ -84,6 +90,10 @@ h3 {
     display: block;
     width: 100%;
 }
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 .source {
     background: #1D9AAD;
     display: flex;
@@ -94,6 +104,11 @@ h3 {
     margin-left: 30px;
     display: flex;
     align-items: center;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    padding-inline-start: 40px;
 }
 .source ol li {
     margin-right: 40px;

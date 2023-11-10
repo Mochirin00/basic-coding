@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@0;1&family=Fira+Sans+Condensed&family=Mukta:wght@700&family=Nunito+Sans&family=Press+Start+2P&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +124,6 @@ label {
     padding: 10px;
 }
 input[type="text" i]{
-    writing-mode: horizontal-tb !important;
     padding-block: 5px;
     padding-inline: 2px;
 }
@@ -157,14 +156,11 @@ textarea {
     display: inline-block;
     text-align: start;
     appearance: auto;
-    -webkit-rtl-ordering: logical;
     resize: auto;
     cursor: text;
     white-space-collapse: preserve;
     text-wrap: wrap;
     overflow-wrap: break-word;
-    column-count: initial !important;
-    writing-mode: horizontal-tb !important;
 }
 .form button {
     width: 100%;
