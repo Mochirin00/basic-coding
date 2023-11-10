@@ -37,8 +37,7 @@ span {
    font-size: 30px;
    width: 600px;
    padding: 70px;
-   margin: 15px;
-   margin-left: 35%;
+   margin: auto;
    color: #ffffff;
    align-items: center;
    justify-content: center;
