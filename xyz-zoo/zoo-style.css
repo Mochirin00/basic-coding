@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fira+Sans+Condensed&display=swap');
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 head {
@@ -41,10 +41,6 @@ body {
 h1 {
     display: block;
     font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
 .container {
@@ -52,15 +48,6 @@ h1 {
     max-width: 900px;
     margin: 0 auto;
     padding-bottom: 50px;
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 .animal-list > li {
     background: #e8f8f3;
@@ -70,20 +57,9 @@ ul {
     margin: 25px 0;
     padding: 20px 15px;
 }
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-ul {
-    list-style-type: disc;
-}
 h2 {
     display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
 .familia-list {
@@ -94,8 +70,6 @@ h2 {
 }
 ul ul {
     list-style-type: circle;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
 }
 .familia-list li {
     width: 48%;
@@ -104,24 +78,11 @@ ul ul {
 h3 {
     display: block;
     font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
 }
 .familia-list img {
     display: block;
     width: 100%;
-}
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 .source {
     background: #1D9AAD;
@@ -134,26 +95,9 @@ img {
     display: flex;
     align-items: center;
 }
-ol {
-    display: block;
-    list-style-type: decimal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 .source ol li {
     margin-right: 40px;
     color: #fff;
-}
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
 }
 .source ol li a {
     color: #fff;
