@@ -23,6 +23,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+#zoo .top h1 {
+    color: #fff;
+    z-index: 10;
+    font-family: 'Caveat', cursive;
+    font-size: 48px;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 #zoo .top::after {
     content: '';
     display: block;
@@ -32,32 +46,16 @@ body {
     height: 100%;
     background: rgba(56, 43, 35, 0.678);
 }
-#zoo .top h1 {
-    color: #fff;
-    z-index: 10;
-    font-family: 'Caveat', cursive;
-    font-size: 48px;
-}
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
 .container {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: oem;
-    margin-block-end: 0em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
@@ -67,15 +65,12 @@ ul {
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin: 25px 0;
-    padding: 20px 15px;
 }
 li {
-    display: list-item;
     text-align: -webkit-match-parent;
 }
-ul {
-    list-style-type: disc;
+.animal-list > li h2 {
+    width: 100%;
 }
 h2 {
     display: block;
@@ -85,6 +80,9 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+ul {
+    list-style-type: disc;
 }
 .familia-list {
     margin-top: 10px;
@@ -98,14 +96,13 @@ ul ul {
     margin-block-end: 0px;
 }
 .familia-list li {
-    width: 48%;
     list-style: none;
 }
 h3 {
     display: block;
     font-size: 1.17em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
@@ -135,7 +132,6 @@ img {
     align-items: center;
 }
 ol {
-    display: block;
     list-style-type: decimal;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -146,14 +142,6 @@ ol {
 .source ol li {
     margin-right: 40px;
     color: #fff;
-}
-::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
 }
 .source ol li a {
     color: #fff;
