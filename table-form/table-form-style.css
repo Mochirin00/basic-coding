@@ -123,6 +123,9 @@ label {
     border: none;
     padding: 10px;
 }
+select {
+    cursor: pointer;
+}
 input[type="text" i]{
     padding-block: 5px;
     padding-inline: 2px;
@@ -184,4 +187,9 @@ button {
     text-align: center;
     padding-block: 1px;
     padding-inline: 6px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+button:hover {
+    color: #fff;
 }
