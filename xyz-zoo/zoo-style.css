@@ -5,11 +5,9 @@
     box-sizing: border-box;
 }
 #zoo {
-    background: #AAE0CE;
-}
-body {
     font-family: 'Fira Sans Condensed', sans-serif;
-    color: #000000;
+    color: #1C1C1C;
+    background: #649598;
 }
 #zoo .top {
     background: url(../xyz-zoo/img/zoo.jpg) center no-repeat;
@@ -21,18 +19,10 @@ body {
     align-items: center;
 }
 #zoo .top h1 {
-    color: #fff;
+    color: #F2D6AE;
     z-index: 10;
     font-family: 'Caveat', cursive;
-    font-size: 48px;
-}
-h1 {
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    font-size: 70px;
 }
 #zoo .top::after {
     content: '';
@@ -47,39 +37,28 @@ h1 {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+#project ul li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 70px;
+    text-decoration: none;
 }
 .animal-list > li {
-    background: #e8f8f3;
+    background: #F2D6AE;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-}
-li {
-    text-align: -webkit-match-parent;
+    margin: 25px 0;
+    padding: 20px 15px;
 }
 .animal-list > li h2 {
     width: 100%;
-}
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-ul {
-    list-style-type: disc;
 }
 .familia-list {
     margin-top: 10px;
@@ -87,38 +66,16 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-ul ul {
-    list-style-type: circle;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-}
 .familia-list li {
+    width: 48%;
     list-style: none;
-}
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
 }
 .familia-list img {
     display: block;
     width: 100%;
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
 .source {
-    background: #1D9AAD;
+    background: #404F69;
     display: flex;
     padding: 15px 0;
     justify-content: center;
@@ -128,19 +85,11 @@ img {
     display: flex;
     align-items: center;
 }
-ol {
-    list-style-type: decimal;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
 .source ol li {
     margin-right: 40px;
-    color: #fff;
+    color: #F2D6AE;
 }
 .source ol li a {
-    color: #fff;
+    color: #F2D6AE;
     text-decoration: none;
 }
