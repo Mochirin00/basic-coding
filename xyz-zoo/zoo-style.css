@@ -10,7 +10,7 @@
     background: #649598;
 }
 #zoo .top {
-    background: url(../xyz-zoo/img/zoo.jpg) center no-repeat;
+    background: url(../img/zoo.jpg) center no-repeat;
     background-size: cover;
     height: 250px;
     position: relative;

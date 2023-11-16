@@ -11,7 +11,7 @@ body {
    align-items: center;
  }
  #header {
-   background-image: url("img/star.jpg");
+   background-image: url("../img/star.jpg");
    padding: 35px 20px 25px;
    height: 150px;
    text-align: center;
@@ -35,10 +35,10 @@ span {
    font-family: 'Press Start 2P', serif;
    height: 50px;
    text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto
  }
 a:hover{
   color: #f0ec78;
@@ -68,8 +68,8 @@ a:hover{
   position: relative;
 }
 .zoo{
-  background-image: url(img/star.jpg);
+  background-image: url(../img/star.jpg);
 }
 .table{
-  background-image: url(img/star.jpg);
+  background-image: url(../img/star.jpg);
 }
