@@ -2,229 +2,29 @@ body {
     background-color: #0e2e4b;
 }
 #wrapper {
+    position: relative;
     height: 2788px;
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
     background-image: url(../img/background.png);
 }
-#bagian-1 {
+#bagian-1
     .lampion-orange-1 {
-        position: relative;
-        right: -685px;
-    }
+        position: absolute;
+        right: 0;
+        top: 55px;
+        }
     .lampion-biru {
-        position: relative;
-        right: -40px;
+        position: absolute;
+        left: 350px;
     }
     .lampion-orange-2 {
-        position: relative;
-        left: -600px;
+        position: absolute;
+        left: 0;
     }
     .natsu {
-        position: relative;
-        top: -115px;
-        left: 180px;
-    }
-    .ramen {
-        position: relative;
-        top: -120px;
-        right: -470px;
-    }
-    .kari {
-        position: relative;
-        top: -140px;
-        left: 400px;
-    }
-    .hitsumabushi {
-        position: relative;
-        top: 105px;
-        left: -555px;
-    }
-}
-#bagian-2 {
-    .balon-biru {
-        position: relative;
-        top: -100px;
-        left: 55px;
-    }
-    .menu {
-        position: relative;
-        top: -100px;
-        left: 65px;
-    }
-    .balon-pink {
-        position: relative;
-        top: -100px;
-        left: 65px;
-    }
-    .hitsumabushi-button {
-        border: none;
-        cursor: pointer;
-        appearance: none;
-        background: none;
-        position: relative;
-        left: 50px;
-        top: -50px;
-    }
-    .ramen-button {
-        border: none;
-        cursor: pointer;
-        appearance: none;
-        background: none;
-        position: relative;
-        left: 50px;
-        top: -50px;
-    }
-    .kari-button {
-        border: none;
-        cursor: pointer;
-        appearance: none;
-        background: none;
-        position: relative;
-        left: 50px;
-        top: -50px;
-    }
-}
-#bagian-3 {
-    .kakigoori {
-        position: relative;
-        left: 850px;
-        top: -60px;
-    }
-    .gantungan {
-        position: relative;
-        left: 760px;
-        top: 310px;
-    }
-    .watagashi-biru {
-        position: relative;
-        left: 200px;
-        top: 320px;
-    }
-    .watagashi-pink {
-        position: relative;
-        left: 220px;
-        top: 370px;
-    }
-    .ikan {
-        position: relative;
-        left: -150px;
-        top: 725px;
-    }
-    .pisang {
-        position: relative;
-        left: 360px;
-        top: 785px;
-    }
-    .apel {
-        position: relative;
-        left: 370px;
-        top: 850px;
-    }
-    .teks-hitsumabushi {
-        position: relative;
-        top: -60px;
-        left: -190px;
-    }
-    .teks-kari {
-        position: relative;
-        top: 330px;
-        left: 55px;
-    }
-    .teks-ramen {
-        position: relative;
-        top: 750px;
-        right: -100px;
-    }
-    .paragraf-hitsumabushi {
-        position: relative;
-        left: 380px;
-        top: -110px;
-    }
-    .paragraf-kari {
-        position: relative;
-        left: 60px;
-        top: 130px;
-    }
-    .paragraf-ramen {
-        position: relative;
-        left: 380px;
-        top: 330px;
-    }
-    .menu-hitsumabushi {
-        position: relative;
-        top: -565px;
-        left: -480px;
-        z-index: 10;
-    }
-    .menu-kari {
-        position: relative;
-        top: -380px;
-        right: -640px;
-        z-index: 10;
-    }
-    .menu-ramen {
-        position: relative;
-        top: 75px;
-        right: 180px;
-        z-index: 10;
-    }
-    .bg-menu {
         position: absolute;
-        top: 910px;
-        left: 510px;
+        top: 220px;
+        left: 175px;
     }
-}
-#bagian-4 {
-    .petasan-1 {
-        position: relative;
-        top: 90px;
-        left: 837px;
-        z-index: 10;
-    }
-    .petasan-2 {
-        position: relative;
-        top: 225px;
-        left: 590px;
-    }
-    .petasan-3 {
-        position: relative;
-        top: 130px;
-        left: -373px;
-        z-index: 10;
-    }
-    .petasan-4 {
-        position: relative;
-        top: 215px;
-        left: -442px;
-    }
-    .button-kupon {
-        border: none;
-        cursor: pointer;
-        appearance: none;
-        background: none;
-        position: relative;
-        left: 270px;
-    }
-    .kotak-teks-4 {
-        position: relative;
-        top: 70px;
-        left: 190px;
-    }
-    .teks-akses {
-        position: relative;
-        top: -150px;
-        left: 205px;
-    }
-    .baju-biru {
-        position: relative;
-        top: 24px;
-        left: -555px;
-    }
-    .baju-orange {
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
-}
