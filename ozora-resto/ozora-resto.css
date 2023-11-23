@@ -2,29 +2,143 @@ body {
     background-color: #0e2e4b;
 }
 #wrapper {
-    position: relative;
     height: 2788px;
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
     background-image: url(../img/background.png);
 }
-#bagian-1
-    .lampion-orange-1 {
-        position: absolute;
-        right: 0;
-        top: 55px;
-        }
-    .lampion-biru {
-        position: absolute;
-        left: 350px;
+#bagian-1 {
+    position: relative;
+}
+#bagian-1 .lampion-orange-1 {
+    position: absolute;
+    right: 0;
+    top: 55px;
     }
-    .lampion-orange-2 {
-        position: absolute;
-        left: 0;
-    }
-    .natsu {
-        position: absolute;
-        top: 220px;
-        left: 175px;
-    }
+#bagian-1 .lampion-biru {
+    position: absolute;
+    left: 350px;
+}
+#bagian-1 .lampion-orange-2 {
+    position: absolute;
+    left: 0;
+}
+#bagian-1 .natsu {
+    position: absolute;
+    top: 215px;
+    left: 175px;
+}
+#bagian-1 .hitsumabushi {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+#bagian-1 .kari {
+    position: absolute;
+    top: 320px;
+    left: 380px;
+}
+#bagian-1 .ramen {
+    position: absolute;
+    top: 295px;
+    left: 685px;
+}
+#bagian-2 {
+    position: relative;
+}
+#bagian-2 .balon-biru {
+    position: absolute;
+    top: 505px;
+    left: 50px;
+}
+#bagian-2 .balon-pink {
+    position: absolute;
+    top: 510px;
+    left: 880px;
+}
+#bagian-2 .menu {
+    position: absolute;
+    top: 550px;
+    left: 125px;
+}
+#bagian-2 .hitsumabushi-button {
+    position: absolute;
+    top: 650px;
+    left: 50px;
+}
+#bagian-2 .kari-button {
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+#bagian-2 .ramen-button {
+    position: absolute;
+    top: 650px;
+    left: 650px;
+}
+#bagian-3 {
+    position: relative;
+}
+#bagian-3 .menu-hitsumabushi {
+    position: absolute;
+    top: 875px;
+    left: 80px;
+    z-index: 10;
+}
+#bagian-3 .menu-kari {
+    position: absolute;
+    top: 1330px;
+    left: 640px;
+    z-index: 10;
+}
+#bagian-3 .menu-ramen {
+    position: absolute;
+    top: 1735px;
+    left: 90px;
+    z-index: 10;
+}
+#bagian-3 .teks-hitsumabushi {
+    position: absolute;
+    top: 850px;
+    left: 380px;
+}
+#bagian-3 .teks-kari {
+    position: absolute;
+    top: 1285px;
+    left: 60px;
+}
+#bagian-3 .teks-ramen {
+    position: absolute;
+    top: 1720px;
+    left: 380px;
+}
+#bagian-3 .paragraf-hitsumabushi {
+    position: absolute;
+    font-size: 24px;
+    top: 910px;
+    left: 340px;
+    list-style: none;
+    color: #fff;
+}
+#bagian-3 .paragraf-kari {
+    position: absolute;
+    font-size: 24px;
+    top: 1350px;
+    left: 20px;
+    list-style: none;
+    color: #fff;
+}
+#bagian-3 .paragraf-ramen {
+    position: absolute;
+    font-size: 24px;
+    top: 1780px;
+    left: 340px;
+    list-style: none;
+    color: #fff;
+}
+#bagian-3 .bg-menu {
+    position: absolute;
+    top: 840px;
+    left: 55px;
+}
