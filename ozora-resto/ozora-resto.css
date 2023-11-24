@@ -80,65 +80,161 @@ body {
 #bagian-3 {
     position: relative;
 }
-#bagian-3 .menu-hitsumabushi {
+#bagian-3 .bg-menu {
+    position: absolute;
+    top: 840px;
+    left: 55px;
+}
+#bagian-3 .kakigoori {
+    position: absolute;
+    top: 820px;
+    left: 830px;
+}
+#bagian-3 .gantungan {
+    position: absolute;
+    top: 1100px;
+    left: 815px;
+}
+#bagian-3 .watagashi-biru {
+    position: absolute;
+    top: 1170px;
+    left: 335px;
+}
+#bagian-3 .watagashi-pink {
+    position: absolute;
+    top: 1220px;
+    left: 455px;
+}
+#bagian-3 .ikan {
+    position: absolute;
+    top: 1590px;
+    left: 170px;
+}
+#bagian-3 .ikan {
+    position: absolute;
+    top: 1590px;
+    left: 170px;
+}
+#bagian-3 .pisang {
+    position: absolute;
+    top: 1610px;
+    left: 780px;
+}
+#bagian-3 .apel {
+    position: absolute;
+    top: 1700px;
+    left: 870px;
+}
+#menu {
+    position: relative;
+}
+#menu .menu-hitsumabushi {
     position: absolute;
     top: 875px;
     left: 80px;
     z-index: 10;
 }
-#bagian-3 .menu-kari {
+#menu .menu-kari {
     position: absolute;
     top: 1330px;
-    left: 640px;
+    left: 642px;
     z-index: 10;
 }
-#bagian-3 .menu-ramen {
+#menu .menu-ramen {
     position: absolute;
     top: 1735px;
-    left: 90px;
+    left: 92px;
     z-index: 10;
 }
-#bagian-3 .teks-hitsumabushi {
+#menu #teks-hitsumabushi {
     position: absolute;
-    top: 850px;
+    top: 840px;
     left: 380px;
 }
-#bagian-3 .teks-kari {
+#menu #teks-kari {
     position: absolute;
-    top: 1285px;
+    top: 1280px;
     left: 60px;
 }
-#bagian-3 .teks-ramen {
+#menu #teks-ramen {
     position: absolute;
-    top: 1720px;
+    top: 1710px;
     left: 380px;
 }
-#bagian-3 .paragraf-hitsumabushi {
+#menu .paragraf-hitsumabushi {
     position: absolute;
     font-size: 24px;
-    top: 910px;
+    top: 880px;
     left: 340px;
     list-style: none;
     color: #fff;
 }
-#bagian-3 .paragraf-kari {
+#menu .paragraf-kari {
     position: absolute;
     font-size: 24px;
-    top: 1350px;
+    top: 1320px;
     left: 20px;
     list-style: none;
     color: #fff;
 }
-#bagian-3 .paragraf-ramen {
+#menu .paragraf-ramen {
     position: absolute;
     font-size: 24px;
-    top: 1780px;
+    top: 1750px;
     left: 340px;
     list-style: none;
     color: #fff;
 }
-#bagian-3 .bg-menu {
+#bagian-4 {
+    position: relative;
+}
+#bagian-4 .petasan-1 {
     position: absolute;
-    top: 840px;
-    left: 55px;
+    z-index: 10;
+    top: 2060px;
+    left: 837px;
+}
+#bagian-4 .petasan-2 {
+    position: absolute;
+    top: 2137px;
+    left: 750px;
+}
+#bagian-4 .petasan-3 {
+    position: absolute;
+    z-index: 10;
+    z-index: 10;
+    top: 2060px;
+}
+#bagian-4 .petasan-4 {
+    position: absolute;
+    top: 2190px;
+    left: 130px;
+}
+#bagian-4 .button-kupon {
+    position: absolute;
+    border: none;
+    top: 2120px;
+    right: 250px;
+}
+#bagian-4 .kotak-teks-4 {
+    position: absolute;
+    top: 2300px;
+    right: 170px;
+}
+#bagian-4 .paragraf-akses {
+    position: absolute;
+    color: #fff;
+    font-size: 28px;
+    top: 2320px;
+    left: 210px;
+}
+#bagian-4 .baju-biru {
+    position: absolute;
+    top: 2572px;
+    right: 785px;
+}
+#bagian-4 .baju-orange {
+    position: absolute;
+    top: 2570px;
+    left: 790px;
 }
