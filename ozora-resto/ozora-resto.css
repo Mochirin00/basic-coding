@@ -6,7 +6,7 @@ body {
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
-    background-image: url(../img/background\ menu.png);
+    background-image: url(../img/background.png);
 }
 #bagian-1 {
     position: relative;
@@ -96,13 +96,24 @@ body {
 .ramen-button:active {
     transform: translateY(4px);
 }
-.menu-hitsumabushi {
-    margin-top: 875px;
-    margin-left: 80px;
+.img-menu-hitsumabushi {
+    display: block;
+    margin-top: 850px;
+    margin-left: 50px;
+}
+.img-menu-kari {
+    display: block;
+    margin-top: 150px;
+    margin-left: 630px;
+}
+.img-menu-ramen {
+    display: block;
+    margin-top: 120px;
+    margin-left: 50px;
 }
 #teks-hitsumabushi {
     display: block;
-    margin-top: -260px;
+    margin-top: -285px;
     margin-left: 380px;
 }
 .paragraf-hitsumabushi {
@@ -113,13 +124,9 @@ body {
     list-style: none;
     color: #fff;
 }
-.menu-kari {
-    margin-top: 180px;
-    margin-left: 645px;
-}
 #teks-kari {
     display: block;
-    margin-top: -245px;
+    margin-top: -285px;
     margin-left: 65px;
 }
 .paragraf-kari {
@@ -130,13 +137,9 @@ body {
     list-style: none;
     color: #fff;
 }
-.menu-ramen {
-    margin-top: 145px;
-    margin-left: 95px;
-}
 #teks-ramen {
     display: block;
-    margin-top: -270px;
+    margin-top: -285px;
     margin-left: 380px;
 }
 .paragraf-ramen {
@@ -152,22 +155,22 @@ body {
 }
 #bagian-3 .kakigoori {
     position: absolute;
-    top: -1200px;
+    top: -1195px;
     left: 840px;
 }
 #bagian-3 .gantungan {
     position: absolute;
-    top: -920px;
+    top: -905px;
     left: 820px;
 }
 #bagian-3 .watagashi-biru {
     position: absolute;
-    top: -850px;
+    top: -840px;
     left: 335px;
 }
 #bagian-3 .watagashi-pink {
     position: absolute;
-    top: -800px;
+    top: -780px;
     left: 455px;
 }
 #bagian-3 .ikan {
@@ -242,4 +245,192 @@ body {
     position: absolute;
     top: 550px;
     left: 790px;
+}
+@media only screen and (max-width: 600px) {
+    #body {
+        width: 100%;
+    }
+    #wrapper {
+        width: 100%;
+    }
+    .garis-pink-biru {
+        width: 100%;
+    }
+    .lampion-orange-1 {
+        width: 30%;
+        margin-top: -20px;
+    }
+    .lampion-orange-2 {
+        width: 30%;
+    }
+    .lampion-biru {
+        width: 30%;
+        margin-left: -145px;
+    }
+    .natsu {
+        width: 80%;
+        margin-left: -115px;
+        margin-top: -50px;
+    }
+    .hitsumabushi {
+        width: 30%;
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+    .kari {
+        width: 30%;
+        margin-left: -173px;
+        margin-top: -80px;
+    }
+    .ramen {
+        width: 30%;
+        margin-left: -300px;
+        margin-top: 30px;
+    }
+    .balon-biru {
+        width: 8%;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .balon-pink {
+        width: 10%;
+        margin-top: 68px;
+        margin-left: -400px;
+    }
+    .menu {
+        width: 80%;
+        margin-top: -30px;
+        margin-left: -65px;
+    }
+    .hitsumabushi-button {
+        margin-top: 40px;
+        margin-left: -45px;
+    }
+    .kari-button {
+        margin-top: -80px;
+        margin-left: -200px;
+    }
+    .ramen-button {
+        margin-top: 40px;
+        margin-left: -355px;
+    }
+    .img-menu-hitsumabushi {
+        width: 40%;
+        margin-left: 10px;
+    }
+    .img-menu-kari {
+        width: 40%;
+        margin-top: 90px;
+        margin-left: 340px;
+    }
+    .img-menu-ramen {
+        width: 40%;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    #teks-hitsumabushi {
+        width: 40%;
+        margin-top: -220px;
+        margin-left: 260px;
+    }
+    .paragraf-hitsumabushi {
+        width: 55%;
+        font-size: 20px;
+        margin-left: 220px;
+    }
+    #teks-kari {
+        width: 40%;
+        margin-top: -215px;
+        margin-left: 20px;
+    }
+    .paragraf-kari {
+        width: 55%;
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    #teks-ramen {
+        width: 40%;
+        margin-top: -220px;
+        margin-left: 260px;
+    }
+    .paragraf-ramen {
+        width: 55%;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 215px;
+    }
+    .kakigoori {
+        width: 10%;
+        margin-left: -330px;
+        margin-top: 50px;
+    }
+    .gantungan {
+        width: 10%;
+        margin-left: -550px;
+        margin-top: 100px;
+    }
+    .watagashi-biru {
+        margin-left: -300px;
+        margin-top: -40px;
+    }
+    .watagashi-pink {
+        margin-left: -310px;
+        margin-top: -60px;
+    }
+    .ikan {
+        margin-top: 375px;
+        margin-left: -90px;
+    }
+    .pisang {
+        margin-top: -60px;
+        margin-left: -400px;
+    }
+    .apel {
+        margin-left: -380px;
+        margin-top: -110px;
+    }
+    .petasan-1 {
+        width: 30%;
+        margin-top: 60px;
+        margin-left: -428px;
+        z-index: 10;
+    }
+    .petasan-2 {
+        width: 30%;
+        margin-top: 80px;
+        margin-left: -370px;
+    }
+    .petasan-3 {
+        width: 30%;
+        margin-top: 55px;
+        z-index: 10;
+    }
+    .petasan-4 {
+        width: 30%;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+    .button-kupon {
+        margin-top: 100px;
+        margin-right: -190px;
+        z-index: 20;
+    }
+    .kotak-teks-4 {
+        width: 98%;
+        margin-top: 100px;
+        margin-right: -165px;
+    }
+    .paragraf-akses {
+        width: 100%;
+        font-size: 15px;
+        margin-top: 115px;
+        margin-left: -198px;
+    }
+    .baju-orange {
+        margin-top: 85px;
+        margin-left: -400px;
+    }
+    .br {
+        display: none;
+    }
 }
