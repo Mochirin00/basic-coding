@@ -45,26 +45,26 @@ a:hover {
 }
 #img_satelit {
   width: 300px;
-  top: -400px;
-  left: 2400px;
+  top: -470px;
+  left: 1570px;
   position: relative;
  }
 #img_roket {
   width: 450px;
-  top: 400px;
-  left: -150px;
+  top: -10px;
+  left: -260px;
   position: relative;
 }
 #img_earth {
   width: 250px;
   top: -500px;
-  left: 50px;
+  left: -450px;
   position: relative;
 }
 #img_saturnus {
   width: 350px;
-  top: -150px;
-  right: -800px;
+  top: -30px;
+  right: -350px;
   position: relative;
 }
 .zoo {
