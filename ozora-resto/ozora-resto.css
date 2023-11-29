@@ -238,8 +238,8 @@ body {
 }
 #bagian-4 .baju-biru {
     position: absolute;
-    top: 552px;
-    right: 785px;
+    top: 550px;
+    left: 40px;
 }
 #bagian-4 .baju-orange {
     position: absolute;
@@ -427,8 +427,12 @@ body {
         margin-left: -198px;
     }
     .baju-orange {
-        margin-top: 85px;
+        margin-top: 83px;
         margin-left: -400px;
+    }
+    .baju-biru {
+        margin-top: 86px;
+        margin-left: -10px;
     }
     .br {
         display: none;
