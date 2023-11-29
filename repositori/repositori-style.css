@@ -10,7 +10,7 @@ body {
    background-color: #122341;
    align-items: center;
  }
- #header {
+#header {
    background-image: url("../img/star.jpg");
    padding: 35px 20px 25px;
    height: 150px;
@@ -19,7 +19,7 @@ body {
    color: #ffffff;
    font-family: 'Press Start 2P', serif;
  }
- p {
+p {
    margin-top: 10px;
    font-family: 'Bitter', serif;
  }
@@ -27,7 +27,7 @@ span {
   background: #f0ec78;
   color: #000000;
  }
- a{
+a {
    font-size: 30px;
    width: 600px;
    padding: 70px;
@@ -40,36 +40,48 @@ span {
    justify-content: center;
    margin: auto
  }
-a:hover{
+a:hover {
   color: #f0ec78;
 }
-#img_satelit{
+#img_satelit {
   width: 300px;
-  top: -300px;
-  left: 1550px;
+  top: -400px;
+  left: 2400px;
   position: relative;
  }
-#img_roket{
+#img_roket {
   width: 450px;
-  top: 100px;
-  left: -230px;
+  top: 400px;
+  left: -150px;
   position: relative;
 }
-#img_earth{
+#img_earth {
   width: 250px;
-  top: -350px;
-  left: -400px;
+  top: -500px;
+  left: 50px;
   position: relative;
 }
-#img_saturnus{
+#img_saturnus {
   width: 350px;
-  top: 150px;
-  right: -300px;
+  top: -150px;
+  right: -800px;
   position: relative;
 }
-.zoo{
+.zoo {
   background-image: url(../img/star.jpg);
 }
-.table{
+.zoo:active {
+  transform: translateY(4px);
+}
+.table {
   background-image: url(../img/star.jpg);
+}
+.table:active {
+  transform: translateY(4px);
+}
+.ozora {
+  background-image: url(../img/star.jpg);
+}
+.ozora:active {
+  transform: translateY(4px);
 }
