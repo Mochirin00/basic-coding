@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Noto+Sans+JP&display=swap');
 body {
     background-image: url(../img/star.jpg);
+    font-family: 'Noto Sans JP', sans-serif;
 }
 #wrapper {
     height: 2788px;
@@ -119,7 +121,7 @@ body {
 }
 .paragraf-hitsumabushi {
     display: block;
-    font-size: 24px;
+    font-size: 25px;
     margin-top: 10px;
     margin-left: 340px;
     list-style: none;
@@ -132,7 +134,7 @@ body {
 }
 .paragraf-kari {
     display: block;
-    font-size: 24px;
+    font-size: 25px;
     margin-top: 10px;
     list-style: none;
     color: #fff;
@@ -144,7 +146,7 @@ body {
 }
 .paragraf-ramen {
     display: block;
-    font-size: 24px;
+    font-size: 25px;
     margin-top: 5px;
     margin-left: 340px;
     list-style: none;
