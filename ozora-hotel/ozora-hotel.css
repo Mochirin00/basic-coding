@@ -1,0 +1,172 @@
+body {
+    background-color: #f5b8b5;
+}
+#wrapper {
+    height: 6327px;
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/pc/background.png);
+}
+#bagian-1 {
+    position: relative;
+}
+
+.slideshow-container-bag1 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+#bagian-1 .bg-trans1 {
+    position: absolute;
+    top: -10px;
+    right: 190px;
+}
+#bagian-1 .sakura1 {
+    position: relative;
+    top: -507px;
+}
+#bagian-1 .judul-bag1 {
+    position: relative;
+    top: -660px;
+    left: 326px;
+}
+#bagian-1 .kotak-teks-bag1 {
+    position: relative;
+    top: -540px;
+    right: 137px;
+}
+#bagian-1 .teks1-bag1 {
+    position: relative;
+    top: -610px;
+    left: 255px;
+}
+#button-bag1 {
+    position: absolute;
+}
+#button-bag1 .kotak1 {
+    position: relative;
+    top: -576px;
+}
+.kotak1:hover {
+    opacity: 0.5;
+}
+.kotak1:active {
+    transform: translateY(4px);
+}
+#button-bag1 .kotak2 {
+    position: relative;
+    top: -576px;
+    left: -3px;
+}
+.kotak2:hover {
+    opacity: 0.5;
+}
+.kotak2:active {
+    transform: translateY(4px);
+}
+#button-bag1 .kotak3 {
+    position: relative;
+    top: -576px;
+    left: -6px;
+}
+.kotak3:hover {
+    opacity: 0.5;
+}
+.kotak3:active {
+    transform: translateY(4px);
+}
+#button-bag1 .kotak4 {
+    position: relative;
+    top: -576px;
+    left: -10px;
+}
+.kotak4:hover {
+    opacity: 0.5;
+}
+.kotak4:active {
+    transform: translateY(4px);
+}
+#button-bag1 .segitiga {
+    position: relative;
+    top: -605px;
+    left: 225px;
+}
+#button-bag1 .teks-button1-bag1 {
+    position: relative;
+    top: -625px;
+    right: 705px;
+    color: #775435;
+    text-decoration: none;
+    font-weight: bold;
+}
+.teks-button1-bag1:hover {
+    background-color: #fff;
+}
+#button-bag1 .teks-button2-bag1 {
+    position: relative;
+    top: -625px;
+    right: 595px;
+    color: #775435;
+    text-decoration: none;
+    font-weight: bold;
+}
+#button-bag1 .teks-button3-bag1 {
+    position: relative;
+    top: -625px;
+    right: 495px;
+    color: #775435;
+    text-decoration: none;
+    font-weight: bold;
+}
+#button-bag1 .teks-button4-bag1 {
+    position: relative;
+    top: -625px;
+    right: 390px;
+    color: #775435;
+    text-decoration: none;
+    font-weight: bold;
+}
+#bagian-2 {
+    position: absolute;
+}
+#bagian-2 .judul-bag2 {
+    position: relative;
+    top: -700px;
+    left: 250px;
+    z-index: 10;
+}
+
+.slideshow-container-bag2 {
+    top: -370px;
+    right: 375px;
+    z-index: 5;
+    position: relative;
+    margin: auto;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+#bagian-2 .kotak-foto-bag2 {
+    position: relative;
+    top: -565px;
+}
+#bagian-2 .bulat-bag2 {
+    position: relative;
+    top: -385px;
+    right: 540px;
+}
+#bagian-2 .teks-img-bag2 {
+    position: relative;
+    color: #775435;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    top: -388px;
+    right: 215px;
+}
