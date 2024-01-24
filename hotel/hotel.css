@@ -6,12 +6,6 @@
 body {
     background-color: #ffe6d0;
 }
-.wrapper {
-    height: 7327px;
-    max-width: 990px;
-    margin: 0 auto;
-    background-image: url(../img/pc/background.png);
-}
 .container {
     width: 100%;
     position: absolute;
@@ -54,18 +48,19 @@ body {
 img {
     width: 100%;
 }
-#bag1 {
+.asset-bag1 {
     position: absolute;
 }
 .bg-trans {
     position: relative;
     width: 50%;
+    top: 0px;
     left: 490px;
 }
 .sakura1 {
     position: relative;
     width: 1900px;
-    top: -1055px;
+    top: -1056px;
     left: 0px;
 }
 .judul-bag1 {
@@ -89,117 +84,7 @@ img {
     top: -1230px;
     left: 510px;
 }
-#button-bag1 {
-    position: absolute;
-}
-.kotak1 {
-    position: relative;
-    width: 246px;
-    top: -1124px;
-    left: 457px;
-    border: none;
-    cursor: pointer;
-}
-.kotak2 {
-    position: relative;
-    width: 246px;
-    top: -1191px;
-    left: 705px;
-    border: none;
-    cursor: pointer;
-}
-.kotak3 {
-    position: relative;
-    width: 246px;
-    top: -1258px;
-    left: 953px;
-    border: none;
-    cursor: pointer;
-}
-.kotak4 {
-    position: relative;
-    width: 246px;
-    top: -1325px;
-    left: 1201px;
-    border: none;
-    cursor: pointer;
-}
-.teks-button1 {
-    position: relative;
-    top: -1380px;
-    left: 495px;
-    font-size: 22px;
-    color: #775435;
-    font-weight: bold;
-}
-.teks-button2 {
-    position: relative;
-    top: -1380px;
-    left: 558px;
-    font-size: 22px;
-    color: #775435;
-    font-weight: bold;
-}
-.teks-button3 {
-    position: relative;
-    top: -1380px;
-    left: 604px;
-    font-size: 22px;
-    color: #775435;
-    font-weight: bold;
-}
-.teks-button4 {
-    position: relative;
-    top: -1380px;
-    left: 660px;
-    font-size: 22px;
-    color: #775435;
-    font-weight: bold;
-}
-.container2 {
-    position: relative;
-    max-width: 742px;
-    margin: 0 auto;
-}
-.slider2 {
-    display: flex;
-    overflow-x: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-}
-.slier2 img {
-    flex: 1 0 100%;
-}
-.image-bag2 {
-    position: relative;
-    top: 1250px;
-}
-.nav-bag2 {
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    top: 1650px;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.nav-bag2 a {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-.nav-bag2 a:hover {
+#nav-bag1 {
+    position: sticky;
     background-color: #f5b8b5;
-}
-.bag2 {
-    position: absolute;
-}
-.judul-bag2 {
-    position: relative;
-    top: 700px;
-    left: 100px;
 }
