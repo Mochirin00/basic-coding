@@ -85,6 +85,10 @@ img {
     left: 510px;
 }
 #nav-bag1 {
+    display: flex;
+    align-items: start;
+}
+ul {
     position: sticky;
     background-color: #f5b8b5;
 }
