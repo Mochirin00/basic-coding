@@ -6,11 +6,15 @@
 body {
     background-color: #ffe6d0;
 }
-.container {
+#bag1 {
+    position: relative;
+    z-index: 10;
+}
+.container1 {
     width: 100%;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
+    top: 500px;
     left: 50%;
     overflow: hidden;
 }
@@ -48,47 +52,103 @@ body {
 img {
     width: 100%;
 }
-.asset-bag1 {
-    position: absolute;
-}
 .bg-trans {
-    position: relative;
+    position: absolute;
     width: 50%;
-    top: 0px;
-    left: 490px;
+    left: 500px;
 }
 .sakura1 {
-    position: relative;
+    position: absolute;
     width: 1900px;
-    top: -1056px;
-    left: 0px;
+    top: 0px;
 }
 .judul-bag1 {
-    position: relative;
+    position: absolute;
     width: 35%;
-    top: -1350px;
-    left: 625px;
+    top: 370px;
+    left: 620px;
 }
 .kotak-teks-bag1 {
-    position: relative;
+    position: absolute;
     width: 50%;
-    top: -1100px;
-    right: 200px;
+    top: 750px;
+    right: 475px;
 }
 .teks1-bag1 {
-    position: relative;
+    position: absolute;
     font-size: 33px;
     color: #775435;
     font-weight: bold;
     width: 48%;
-    top: -1230px;
-    left: 510px;
+    top: 780px;
+    left: 514px;
 }
-#nav-bag1 {
-    display: flex;
-    align-items: start;
+#navbar1 {
+    position: relative;
+    top: 1000px;
+    z-index: 9;
 }
-ul {
+.navbar-bag1 {
+    background: lightcoral;
     position: sticky;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    transition: 0.6s;
+}
+a {
+    color: #775435;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+}
+a:hover {
+    color: #fff;
+}
+#wrapper {
+    position: relative;
+    background-image: url(../img/pc/background.png);
+    width: 990px;
+    height: 7327px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 {
+    position: relative;
+    max-width: 742px;
+    margin: 0 auto;
+}
+.image-bag2 {
+    position: relative;
+    top: 1200px;
+    left: 5px;
+}
+.slider2 {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.slider2 img {
+    flex: 1 0 100%;
+}
+.nav-bag2 {
+    display: flex;
+    justify-content: center;
+}
+.nav-bag2 a {
+    position: relative;
+    top: 1200px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+.nav-bag2 a:hover {
     background-color: #f5b8b5;
 }
