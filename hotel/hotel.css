@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 body {
-    background-color: #ffe6d0;
+    background-image: url(../img/pc/bg\ hana.jpg);
 }
 #bag1 {
     position: relative;
@@ -89,7 +89,7 @@ img {
     z-index: 9;
 }
 .navbar-bag1 {
-    background: lightcoral;
+    background: #f6a3a4;
     position: sticky;
     text-align: center;
 }
@@ -103,10 +103,33 @@ a {
     font-size: 22px;
     text-decoration: none;
     padding: 25px;
-    display: inline-block;
+    display: block;
+    margin-top: -10px;
 }
 a:hover {
     color: #fff;
+}
+.navbar-bag1 img {
+    display: block;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    width: 20px;
+}
+.segitiga1 {
+    display: block;
+    margin-left: 290px;
+}
+.segitiga2 {
+    display: block;
+    margin-left: 280px;
+}
+.segitiga3 {
+    display: block;
+    margin-left: 320px;
+}
+.segitiga4 {
+    display: block;
+    margin-left: 240px;
 }
 #wrapper {
     position: relative;
@@ -124,7 +147,7 @@ a:hover {
 }
 .image-bag2 {
     position: relative;
-    top: 1200px;
+    top: 1175px;
     left: 5px;
 }
 .slider2 {
@@ -142,13 +165,34 @@ a:hover {
 }
 .nav-bag2 a {
     position: relative;
-    top: 1200px;
-    width: 5px;
+    top: 1190px;
     border-radius: 50%;
     background-color: #fff;
     cursor: pointer;
-    margin: 5px;
+    margin: 2px;
+    padding: 10px;
 }
 .nav-bag2 a:hover {
     background-color: #f5b8b5;
+}
+#judul-bag2 {
+    position: relative;
+    top: 700px;
+    left: 250px;
+    width: 500px;
+    z-index: 10;
+}
+.kotak-foto2 {
+    display: block;
+    margin-top: 840px;
+}
+.teks2-bag2 {
+    color: #775435;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin-top: 220px;
+    margin-left: 20px;
+    text-align: center;
 }
