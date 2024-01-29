@@ -159,6 +159,9 @@ a:hover {
 .slider2 img {
     flex: 1 0 100%;
 }
+.slider2 p {
+    flex: 1 0 100%;
+}
 .nav-bag2 {
     display: flex;
     justify-content: center;
@@ -195,4 +198,94 @@ a:hover {
     margin-top: 220px;
     margin-left: 20px;
     text-align: center;
+}
+.kotak-button1-bag2 {
+    display: block;
+    margin-top: 60px;
+    margin-left: 200px;
+    width: 60%;
+}
+.teks-kotak-button1-bag2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin-top: -170px;
+    margin-left: 15px;
+    text-align: center;
+}
+.tombol-button1-bag2 {
+    position: relative;
+    top: 15px;
+    left: 300px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-tombol-button1-bag2 {
+    position: relative;
+    top: -8px;
+    right: 100px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #775435;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-tombol-button1-bag2:hover {
+    color: #fff;
+}
+.kotak-button2-bag2 {
+    display: block;
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 60%;
+}
+.teks-kotak-button2-bag2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin-top: -170px;
+    margin-left: 15px;
+    text-align: center;
+}
+.tombol-button2-bag2 {
+    position: relative;
+    top: 15px;
+    left: 300px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-tombol-button2-bag2 {
+    position: relative;
+    top: -8px;
+    right: 100px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #775435;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-tombol-button2-bag2:hover {
+    color: #fff;
+}
+.ornamen-bawah2 {
+    display: block;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 90%;
 }
