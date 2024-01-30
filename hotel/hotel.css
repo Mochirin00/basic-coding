@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 body {
-    background-image: url(../img/pc/bg\ hana.jpg);
+    background-image: url(../img/pc/background.png);
 }
 #bag1 {
     position: relative;
@@ -65,8 +65,8 @@ img {
 .judul-bag1 {
     position: absolute;
     width: 35%;
-    top: 370px;
-    left: 620px;
+    top: 150px;
+    left: 100px;
 }
 .kotak-teks-bag1 {
     position: absolute;
@@ -137,71 +137,99 @@ a:hover {
     width: 990px;
     height: 7327px;
     display: block;
+    margin-top: -70px;
     margin-left: auto;
     margin-right: auto;
 }
-.container2 {
+.slider-wrapper2 {
     position: relative;
     max-width: 742px;
     margin: 0 auto;
+    top: 1250px;
 }
 .image-bag2 {
-    position: relative;
-    top: 1175px;
-    left: 5px;
-}
-.slider2 {
     display: flex;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 }
-.slider2 img {
-    flex: 1 0 100%;
+.image-bag2 img {
+    scroll-snap-align: start;
 }
-.slider2 p {
-    flex: 1 0 100%;
-}
-.nav-bag2 {
+.slider-nav2 {
     display: flex;
-    justify-content: center;
+    column-gap: 5px;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    top: 370px;
 }
-.nav-bag2 a {
-    position: relative;
-    top: 1190px;
+.slider-nav2 a {
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 50%;
     background-color: #fff;
-    cursor: pointer;
-    margin: 2px;
     padding: 10px;
+    transition: opacity ease 250ms;
+    
 }
-.nav-bag2 a:hover {
-    background-color: #f5b8b5;
+.slider-nav2 a:hover {
+    background-color: #f6a3a4;
+}
+.caption-bag2 {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-size: 22px;
+    color: #775435;
+    font-weight: bold;
+}
+#caption-1 {
+    display: block;
+}
+#caption-1:target {
+    display: none;
+}
+#caption-2 {
+    display: none;
+}
+#caption-2:target {
+    display: block;
+}
+#caption-3 {
+    display: none;
+}
+#caption-3:target {
+    display: block;
+}
+#caption-4 {
+    display: none;
+}
+#caption-4:target {
+    display: block;
+}
+#caption-5 {
+    display: none;
+}
+#caption-5:target {
+    display: block;
 }
 #judul-bag2 {
     position: relative;
-    top: 700px;
+    top: 730px;
     left: 250px;
     width: 500px;
     z-index: 10;
 }
 .kotak-foto2 {
     display: block;
-    margin-top: 840px;
-}
-.teks2-bag2 {
-    color: #775435;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-    display: block;
-    margin-top: 220px;
-    margin-left: 20px;
-    text-align: center;
+    margin-top: 870px;
 }
 .kotak-button1-bag2 {
     display: block;
-    margin-top: 60px;
+    margin-top: 300px;
     margin-left: 200px;
     width: 60%;
 }
@@ -212,7 +240,7 @@ a:hover {
     text-decoration: none;
     display: block;
     margin-top: -170px;
-    margin-left: 15px;
+    margin-left: 5px;
     text-align: center;
 }
 .tombol-button1-bag2 {
@@ -254,7 +282,7 @@ a:hover {
     text-decoration: none;
     display: block;
     margin-top: -170px;
-    margin-left: 15px;
+    margin-left: 5px;
     text-align: center;
 }
 .tombol-button2-bag2 {
@@ -288,4 +316,29 @@ a:hover {
     margin-top: 70px;
     margin-left: 50px;
     width: 90%;
+}
+.image-bag3 {
+    position: relative;
+    max-width: 370px;
+    max-height: 176px;
+}
+.img1-bag3 {
+    position: absolute;
+    left: 125px;
+    top: 200px;
+}
+.img2-bag3 {
+    position: absolute;
+    left: 495px;
+    top: 200px;
+}
+.img3-bag3 {
+    position: absolute;
+    left: 125px;
+    top: 376px;
+}
+.img4-bag3 {
+    position: absolute;
+    left: 495px;
+    top: 376px;
 }
