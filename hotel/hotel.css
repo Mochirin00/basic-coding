@@ -8,7 +8,7 @@ body {
 }
 #bag1 {
     position: relative;
-    z-index: 10;
+    
 }
 .container1 {
     width: 100%;
@@ -456,4 +456,48 @@ a:hover {
     color: #775435;
     font-weight: bold;
     text-align: center;
+    top: 650px;
+    left: 590px;
+}
+.kotak-button1-bag4 {
+    display: block;
+    margin-top: 390px;
+    margin-left: 290px;
+    width: 32%;
+}
+.teks-kotak-button1-bag4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin-top: -200px;
+    margin-right: 200px;
+    text-align: center;
+}
+.tombol-button1-bag4 {
+    position: relative;
+    top: 10px;
+    left: 770px;
+    width: 20%;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-tombol-button1-bag4 {
+    position: relative;
+    top: -12px;
+    left: 190px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #775435;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-tombol-button1-bag4:hover {
+    color: #fff;
 }
