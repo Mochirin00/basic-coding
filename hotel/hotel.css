@@ -61,7 +61,7 @@ img {
     position: absolute;
     width: 35%;
     top: 80px;
-    left: 100px;
+    left: 97px;
 }
 .kotak-teks-bag1 {
     position: absolute;
@@ -142,7 +142,7 @@ a:hover {
     max-height: 351px;
     overflow: hidden;
     position: absolute;
-    left: 575px;
+    left: 585px;
     top: 200px;
     transition: opacity .5s ease-in-out;
 }
@@ -184,7 +184,7 @@ a:hover {
     display: inline-block;
     position: relative;
     top: 300px;
-    right: -10px;
+    left: 10px;
 }
 .slider-nav__label2 {
     font-size: 13px;
@@ -206,7 +206,7 @@ a:hover {
 .judul-bag2 {
     position: relative;
     top: -150px;
-    left: 700px;
+    left: 717px;
     width: 500px;
     z-index: 10;
 }
@@ -217,7 +217,7 @@ a:hover {
 .kotak-button1-bag2 {
     display: block;
     margin-top: 220px;
-    margin-left: 300px;
+    margin-left: 313px;
     width: 32%;
 }
 .teks-kotak-button1-bag2 {
@@ -227,13 +227,13 @@ a:hover {
     text-decoration: none;
     display: block;
     margin-top: -170px;
-    margin-right: 700px;
+    margin-right: 670px;
     text-align: center;
 }
 .tombol-button1-bag2 {
     position: relative;
     top: 15px;
-    left: 412.5px;
+    left: 423.5px;
     width: 20%;
     z-index: 10;
     background: none;
@@ -243,7 +243,7 @@ a:hover {
 .teks-tombol-button1-bag2 {
     position: relative;
     top: -8px;
-    right: 160px;
+    right: 150px;
     width: 40%;
     z-index: 10;
     background: none;
@@ -258,8 +258,8 @@ a:hover {
 }
 .kotak-button2-bag2 {
     display: block;
-    margin-top: -173px;
-    margin-left: 1020px;
+    margin-top: -171px;
+    margin-left: 1001px;
     width: 32%;
 }
 .teks-kotak-button2-bag2 {
@@ -269,13 +269,13 @@ a:hover {
     text-decoration: none;
     display: block;
     margin-top: -170px;
-    margin-left: 742.5px;
+    margin-left: 712.5px;
     text-align: center;
 }
 .tombol-button2-bag2 {
     position: relative;
     top: 15px;
-    left: 1135px;
+    left: 1115px;
     width: 20%;
     z-index: 10;
     background: none;
@@ -285,7 +285,7 @@ a:hover {
 .teks-tombol-button2-bag2 {
     position: relative;
     top: -8px;
-    left: 560px;
+    left: 540px;
     width: 40%;
     z-index: 10;
     background: none;
@@ -311,7 +311,7 @@ a:hover {
 .judul-bag3 {
     position: relative;
     top: 100px;
-    left: 720px;
+    left: 717px;
     width: 500px;
     z-index: 10;
 }
@@ -380,7 +380,7 @@ a:hover {
 .teks-tombol-button1-bag3 {
     position: relative;
     top: -12px;
-    left: 190px;
+    left: 195px;
     width: 40%;
     z-index: 10;
     background: none;
@@ -395,7 +395,7 @@ a:hover {
 }
 .ornamen-bawah3 {
     display: block;
-    margin-top: 90px;
+    margin-top: 85px;
     margin-left: 490px;
     width: 50%; 
 }
@@ -406,7 +406,7 @@ a:hover {
 .judul-bag4 {
     position: relative;
     top: 100px;
-    left: 720px;
+    left: 717px;
     width: 500px;
     z-index: 10;
 }
@@ -434,7 +434,7 @@ a:hover {
     column-gap: 5px;
     position: absolute;
     bottom: 1.25rem;
-    left: 50%;
+    left: 50.5%;
     transform: translateX(-50%);
     z-index: 1;
     top: 580px;
@@ -468,17 +468,17 @@ a:hover {
 .teks-kotak-button1-bag4 {
     color: #fff;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 21px;
     text-decoration: none;
     display: block;
-    margin-top: -200px;
-    margin-right: 200px;
+    margin-top: -230px;
+    margin-right: 710px;
     text-align: center;
 }
 .tombol-button1-bag4 {
     position: relative;
-    top: 10px;
-    left: 770px;
+    top: 20px;
+    left: 410px;
     width: 20%;
     z-index: 10;
     background: none;
@@ -487,8 +487,8 @@ a:hover {
 }
 .teks-tombol-button1-bag4 {
     position: relative;
-    top: -12px;
-    left: 190px;
+    top: -2px;
+    right: 170px;
     width: 40%;
     z-index: 10;
     background: none;
@@ -500,4 +500,272 @@ a:hover {
 }
 .teks-tombol-button1-bag4:hover {
     color: #fff;
+}
+.kotak-button2-bag4 {
+    display: block;
+    margin-top: -222px;
+    margin-left: 1020px;
+    width: 32%;
+}
+.teks-kotak-button2-bag4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    display: block;
+    margin-top: -230px;
+    margin-left: 750px;
+    text-align: center;
+}
+.tombol-button2-bag4 {
+    position: relative;
+    top: 20px;
+    left: 1140px;
+    width: 20%;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-tombol-button2-bag4 {
+    position: relative;
+    top: -1px;
+    left: 565px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #775435;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-tombol-button2-bag4:hover {
+    color: #fff;
+}
+.ornamen-bawah4 {
+    display: block;
+    margin-top: 90px;
+    margin-left: 490px;
+    width: 50%; 
+}
+#bag5 {
+    position: relative;
+    top: 900px;
+}
+.judul-bag5 {
+    position: relative;
+    top: 100px;
+    left: 717px;
+    width: 500px;
+    z-index: 10;
+}
+.slider-wrapper5 {
+    position: relative;
+    max-width: 742px;
+    max-height: 351px;
+    margin: 0 auto;
+    top: 75px;
+    left: 15px;
+}
+.image-bag5 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.image-bag5 img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+}
+.slider-nav5 {
+    display: flex;
+    column-gap: 5px;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 51%;
+    transform: translateX(-50%);
+    z-index: 1;
+    top: 580px;
+}
+.slider-nav5 a {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #fff;
+    transition: opacity ease 250ms;
+    padding: 13px;
+}
+.slider-nav5 a:hover {
+    background-color: #f5b8b5;
+}
+.teks1-bag5 {
+    position: absolute;
+    font-size: 25px;
+    color: #775435;
+    font-weight: bold;
+    text-align: center;
+    top: 650px;
+    left: 590px;
+}
+.teks-papan {
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    top: 1180px;
+    left: 820px;
+}
+.teks-papan span {
+    color: #fcbe00;
+}
+.papan {
+    display: block;
+    margin-top: 450px;
+    margin-left: 686px;
+    width: 30%;
+}
+.teks2-bag5 {
+    position: absolute;
+    font-size: 25px;
+    color: #775435;
+    font-weight: bold;
+    text-align: center;
+    top: 1460px;
+    left: 612.5px;
+}
+.ornamen-bawah5 {
+    display: block;
+    margin-top: 290px;
+    margin-left: 490px;
+    width: 50%;
+}
+#bag6 {
+    position: relative;
+    top: 900px;
+}
+.kotak-button1-bag6 {
+    display: block;
+    margin-top: 100px;
+    margin-left: 660px;
+    width: 32%;
+}
+.tombol-button1-bag6 {
+    position: relative;
+    top: -180px;
+    left: 775px;
+    width: 20%;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-tombol-button1-bag6 {
+    position: relative;
+    top: -202px;
+    left: 200px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #775435;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-tombol-button1-bag6:hover {
+    color: #fff;
+}
+.teks-kotak-button1-bag6 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin-top: -180px;
+    margin-left: 40px;
+    text-align: center;
+}
+.jal {
+    position: relative;
+    top: 80px;
+    left: 522px;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-jal {
+    position: relative;
+    top: 50px;
+    right: 40px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-jal:hover {
+    color: #fff;
+}
+.ana {
+    position: relative;
+    top: 80px;
+    right: 178px;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-ana {
+    position: relative;
+    top: -78px;
+    left: 855px;
+    width: 40%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.teks-ana:hover {
+    color: #fff;
+}
+.kotak-button2-bag6 {
+    position: relative;
+    top: 140px;
+    right: 60px;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.teks-kotak-button2-bag6 {
+    position: relative;
+    top: 45px;
+    left: 10px;
+    width: 100%;
+    z-index: 10;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+}
+.teks-kotak-button2-bag6:hover {
+    color: #775435;
+}
+.sakura2 {
+    position: absolute;
+    width: 1900px;
+    top: 0px;
+    left: 0px;
 }
