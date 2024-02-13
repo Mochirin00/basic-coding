@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#top {
+    position: relative;
+}
+.foto-top {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul-top {
+    display: block;
+    width: 20%;
+    margin-left: 500px;
+    margin-top: -110px;
+}
+.about-top {
+    position: absolute;
+    font-size: 30px;
+    color: #3b5b8a;
+    font-weight: bold;
+    top: 30px;
+    left: 1170px;
+    text-decoration: none;
+}
+.design-top {
+    position: absolute;
+    font-size: 30px;
+    color: #3b5b8a;
+    font-weight: bold;
+    top: 30px;
+    left: 1300px;
+    text-decoration: none;
+}
+.photograph-top {
+    position: absolute;
+    font-size: 30px;
+    color: #3b5b8a;
+    font-weight: bold;
+    top: 30px;
+    left: 1440px;
+    text-decoration: none;
+}
+#bag1 {
+    position: relative;
+    top: 100px;
+}
+.kotak-bag1 {
+    display: block;
+    margin-top: 0px;
+}
+.judul-bag1 {
+    display: block;
+    margin-top: -850px;
+    margin-left: 350px;
+}
+.text-bag1 {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    top: 350px;
+    left: 250px;
+    text-decoration: none;
+}
+.judul-tools-bag1 {
+    display: block;
+    width: 10%;
+    margin-top: 375px;
+    margin-left: 250px;
+}
+.foto-tools-bag1 {
+    display: block;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.foto-bag1 {
+    display: block;
+    width: 20%;
+    margin-top: -650px;
+    margin-left: 1300px;
+}
+.jakarta {
+    display: block;
+    width: 15%;
+    margin-top: -80px;
+    margin-left: 1345px;
+}
+#bag2 {
+    position: relative;
+    top: 348px;
+}
+.judul-bag2 {
+    display: block;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+.banner-button {
+    display: block;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.ig-feed-button {
+    display: block;
+    margin-top: -92px;
+    margin-left: 775px;
+}
+.logo-button {
+    display: block;
+    margin-top: -92px;
+    margin-left: 1200px;
+}
+.typo-button {
+    display: block;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.name-button {
+    display: block;
+    margin-top: -92px;
+    margin-left: 775px;
+}
+.website-button {
+    display: block;
+    margin-top: -92px;
+    margin-left: 1200px;
+}
+#banner {
+    position: relative;
+    top: 100px;
+}
+.kotak-banner {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul-banner {
+    display: block;
+    z-index: 10;
+    margin-top: -1500px;
+    margin-left: 480px;
+}
+.foto-banner1 {
+    display: block;
+    z-index: 10;
+    margin-top: 45px;
+    margin-left: 470px;
+}
+.foto-banner2 {
+    display: block;
+    z-index: 10;
+    margin-top: 45px;
+    margin-left: 470px;
+}
+.foto-banner3 {
+    display: block;
+    z-index: 10;
+    margin-top: 45px;
+    margin-left: 470px;
+}
+.foto-banner4 {
+    display: block;
+    z-index: 10;
+    margin-top: 45px;
+    margin-left: 470px;
+}
+.foto-banner5 {
+    display: block;
+    z-index: 10;
+    margin-top: 45px;
+    margin-left: 470px;
+}
+#ig-feed {
+    position: relative;
+    top: 100px;
+}
+.kotak-ig-feed {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul-igfeed {
+    display: block;
+    z-index: 10;
+    margin-top: -520px;
+    margin-left: 310px;
+}
+.foto-ig-feed1 {
+    display: block;
+    z-index: 10;
+    margin-top: 30px;
+    margin-left: 310px;
+}
+.foto-ig-feed2 {
+    display: block;
+    z-index: 10;
+    margin-top: -400px;
+    margin-left: 1190px;
+}
+.foto-ig-feed3 {
+    display: block;
+    z-index: 10;
+    margin-top: -400px;
+    margin-left: 750px;
+}
+#logo {
+    position: relative;
+    top: 131px;
+}
+.kotak-logo {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul-logo {
+    display: block;
+    z-index: 10;
+    margin-top: -510px;
+    margin-left: 750px;
+}
+.foto-logo1 {
+    display: block;
+    z-index: 10;
+    margin-top: 25px;
+    margin-left: 755px;
+}
+#typo {
+    position: relative;
+    top: 155px;
+}
+.kotak-typo {
+    display: block;
+    margin-top: 60px;
+    margin-left: 270px;
+}
+.judul-typo {
+    display: block;
+    z-index: 10;
+    margin-top: -905px;
+    margin-left: 310px;
+}
+.foto-typo1 {
+    display: block;
+    z-index: 10;
+    margin-top: 20px;
+    margin-left: 292.5px;
+}
+#name {
+    position: relative;
+    top: -760px;
+}
+.kotak-name {
+    display: block;
+    margin-top: 0px;
+    margin-left: 1150px;
+}
+.judul-name {
+    display: block;
+    z-index: 10;
+    margin-top: -895px;
+    margin-left: 1180px;
+}
+.foto-name1 {
+    display: block;
+    z-index: 10;
+    margin-top: 30px;
+    margin-left: 1167px;
+}
+#website {
+    position: relative;
+    top: -700px;
+}
+.kotak-website {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
