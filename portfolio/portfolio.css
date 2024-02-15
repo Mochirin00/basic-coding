@@ -45,6 +45,18 @@
     left: 1440px;
     text-decoration: none;
 }
+.button-up {
+    position: relative;
+    top: 1060px;
+    left: 1780px;
+    background-color: #fff;
+    display: block;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
 #bag1 {
     position: relative;
     top: 100px;
@@ -276,11 +288,146 @@
 }
 #website {
     position: relative;
-    top: -700px;
+    top: -650px;
 }
 .kotak-website {
     display: block;
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+}
+.judul-website {
+    display: block;
+    z-index: 10;
+    margin-top: -2275px;
+    margin-left: 310px;
+}
+.judul-pc {
+    display: block;
+    z-index: 10;
+    margin-top: 50px;
+    margin-left: 430px;
+}
+.foto-pc1 {
+    display: block;
+    z-index: 10;
+    margin-top: 50px;
+    margin-left: 331px;
+}
+.foto-pc2 {
+    display: block;
+    z-index: 10;
+    margin-top: -474px;
+    margin-left: 974px;
+}
+.foto-pc3 {
+    display: block;
+    z-index: 10;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul-mobile {
+    display: block;
+    z-index: 10;
+    margin-top: 50px;
+    margin-left: 430px;
+}
+.foto-mobile1 {
+    display: block;
+    z-index: 10;
+    margin-top: 50px;
+    margin-left: 481px;
+}
+.foto-mobile2 {
+    display: block;
+    z-index: 10;
+    margin-top: -824px;
+    margin-left: 1023px;
+}
+#bag3 {
+    position: relative;
+    top: 0px;
+}
+.judul-bag3 {
+    display: block;
+    margin-top: -100px;
+    margin-left: 1180px;
+}
+.kotak-bag3 {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto1 {
+    display: block;
+    margin-top: -1165.5px;
+    margin-left: 300px;
+}
+.foto2 {
+    display: block;
+    margin-top: -533px;
+    margin-left: 750px;
+}
+.foto3 {
+    display: block;
+    margin-top: -534px;
+    margin-left: 1200px;
+}
+.foto4 {
+    display: block;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+.foto5 {
+    display: block;
+    margin-top: -533px;
+    margin-left: 750px;
+}
+.foto6 {
+    display: block;
+    margin-top: -534px;
+    margin-left: 1200px;
+}
+#bottom {
+    position: relative;
+    top: 120px;
+}
+.kotak-bottom {
+    display: block;
+    margin-top: 0px;
+}
+.judul-bottom {
+    display: block;
+    margin-top: -250px;
+    margin-left: 200px;
+}
+.ig {
+    display: block;
+    margin-top: -130px;
+    margin-left: 1700px;
+}
+.email {
+    display: block;
+    margin-top: -38px;
+    margin-left: 1620px;
+}
+.text-bottom1 {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    top: 200px;
+    left: 1350px;
+    text-decoration: none;
+}
+.text-bottom2 {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    top: 350px;
+    left: 850px;
+    text-decoration: none;
 }
