@@ -155,42 +155,52 @@
 .judul-banner {
     display: block;
     z-index: 10;
-    margin-top: -1500px;
+    margin-top: -420px;
     margin-left: 480px;
 }
-.foto-banner1 {
+.slider-wrapper {
+    position: relative;
     display: block;
-    z-index: 10;
-    margin-top: 45px;
-    margin-left: 470px;
+    max-width: 960px;
+    max-height: 237px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.foto-banner2 {
-    display: block;
-    z-index: 10;
-    margin-top: 45px;
-    margin-left: 470px;
+.image-banner {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
-.foto-banner3 {
-    display: block;
-    z-index: 10;
-    margin-top: 45px;
-    margin-left: 470px;
+.image-banner img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
 }
-.foto-banner4 {
-    display: block;
+.slider-nav {
+    display: flex;
+    column-gap: 0.5rem;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 10;
-    margin-top: 45px;
-    margin-left: 470px;
 }
-.foto-banner5 {
-    display: block;
-    z-index: 10;
-    margin-top: 45px;
-    margin-left: 470px;
+.slider-nav a {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    background-color: #3b5b8a;
 }
 #ig-feed {
     position: relative;
-    top: 100px;
+    top: 150px;
 }
 .kotak-ig-feed {
     display: block;
@@ -224,7 +234,7 @@
 }
 #logo {
     position: relative;
-    top: 131px;
+    top: 181px;
 }
 .kotak-logo {
     display: block;
@@ -246,7 +256,7 @@
 }
 #typo {
     position: relative;
-    top: 155px;
+    top: 205px;
 }
 .kotak-typo {
     display: block;
@@ -267,7 +277,7 @@
 }
 #name {
     position: relative;
-    top: -760px;
+    top: -710px;
 }
 .kotak-name {
     display: block;
@@ -288,7 +298,7 @@
 }
 #website {
     position: relative;
-    top: -650px;
+    top: -600px;
 }
 .kotak-website {
     display: block;
@@ -347,7 +357,7 @@
 }
 #bag3 {
     position: relative;
-    top: 0px;
+    top: 50px;
 }
 .judul-bag3 {
     display: block;
@@ -392,7 +402,7 @@
 }
 #bottom {
     position: relative;
-    top: 120px;
+    top: 170px;
 }
 .kotak-bottom {
     display: block;
